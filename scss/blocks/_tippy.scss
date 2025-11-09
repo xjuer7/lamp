@@ -1,0 +1,13 @@
+.tippy {
+    &-box {
+        position: absolute;
+        min-width: 208px;
+        background-color: $color-white;
+        color: $color-black;
+        border-radius: 8px;
+        box-shadow: 0 10px 60px 0 #4848481A;
+        top: 0;
+        right: 0;
+        transform: translate(9px, calc(-100% - 8px));
+      }
+}
